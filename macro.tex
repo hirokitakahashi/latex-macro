@@ -42,10 +42,11 @@
 \newcommand{\tdiff}{\frac{d}{dt}}
 
 % integrals
-\newcommand{\integ}[1]{\int d#1 \, }
-\newcommand{\infint}{\int_{-\infty}^{\infty}\,}
-%\newcommand{\Dint}[3]{\int_{#1}^{#2} d#3 \, }
-\newcommand{\iinfint}{\int_{-\infty}^{\infty} \! \int_{-\infty}^{\infty} \,}
+\newcommand{\intv}[1]{\int d#1 \, } % integral with variable
+\newcommand{\intinf}{\int_{-\infty}^{\infty}\,} % integral from -inf to +inf
+\newcommand{\intinfv}[1]{\int_{-\infty}^{\infty} d#1\, } % integral from -inf to +inf with variable
+\newcommand{\intd}[3]{\int_{#2}^{#3} d#1 \, } % definite integral
+\newcommand{\intinfinf}{\int_{-\infty}^{\infty} \! \int_{-\infty}^{\infty} \,} % 2D indefinite integral
 
 % strings
 \newcommand{\Schrodinger}{Schr\"{o}dinger}
