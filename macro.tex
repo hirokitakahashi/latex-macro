@@ -6,7 +6,7 @@
 \newcommand{\brkt}[2]{\left\langle #1 \right| #2\rangle}
 \newcommand{\proj}[2]{\left\vert #1 \right\rangle \!\left\langle #2 \right\vert } %projection
 \newcommand{\expt}[1]{\langle #1 \rangle} %expectation value
-\newcommand{\makebib}[5]{#1 #2 \textbf{#3}, #4 (#5).}
+\newcommand{\makebib}[5]{#1, #2 \textbf{#3}, #4 (#5).} %authors, journal, volume, page and year
 \newcommand{\refeq}[1]{Eq.~(\ref{#1})}
 \newcommand{\reffig}[1]{Fig.~\ref{#1}}
 \newcommand{\refsec}[1]{\S\ref{#1}}
@@ -45,8 +45,9 @@
 \newcommand{\intv}[1]{\int d#1 \, } % integral with variable
 \newcommand{\intinf}{\int_{-\infty}^{\infty}\,} % integral from -inf to +inf
 \newcommand{\intinfv}[1]{\int_{-\infty}^{\infty} d#1\, } % integral from -inf to +inf with variable
-\newcommand{\intd}[3]{\int_{#2}^{#3} d#1 \, } % definite integral
-\newcommand{\intinfinf}{\int_{-\infty}^{\infty} \! \int_{-\infty}^{\infty} \,} % 2D indefinite integral
+\newcommand{\intd}[2]{\int_{#1}^{#2} \, } % definite integral
+\newcommand{\intdv}[3]{\int_{#1}^{#2} d#3 \, } % definite integral with variable
+\newcommand{\iintinf}{\int_{-\infty}^{\infty} \! \int_{-\infty}^{\infty} \,} % 2D indefinite integral
 
 % strings
 \newcommand{\Schrodinger}{Schr\"{o}dinger}
