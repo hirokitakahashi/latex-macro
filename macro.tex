@@ -5,7 +5,7 @@
 \newcommand{\ket}[1]{\left\vert #1 \right\rangle}
 \newcommand{\brkt}[2]{\left\langle #1 \right| #2\rangle}
 \newcommand{\proj}[2]{\left\vert #1 \right\rangle \!\left\langle #2 \right\vert } %projection
-\newcommand{\expt}[1]{\langle #1 \rangle} %expectation value
+\newcommand{\ev}[1]{\left\langle #1 \right\rangle} %expectation value
 \newcommand{\makebib}[5]{#1, #2 \textbf{#3}, #4 (#5).} %authors, journal, volume, page and year
 \newcommand{\refeq}[1]{Eq.~(\ref{#1})}
 \newcommand{\reffig}[1]{Fig.~\ref{#1}}
@@ -13,8 +13,8 @@
 \newcommand{\reftab}[1]{Table \ref{#1}}
 
 % operators
-\newcommand{\an}{\hat{a}}
-\newcommand{\ad}{\hat{a}^{\dagger}}
+\newcommand{\an}{\hat{a}} % annihilation operator
+\newcommand{\ad}{\hat{a}^{\dagger}} % creation operator
 \newcommand{\An}{\hat{A}}
 \newcommand{\Ad}{\hat{A}^{\dagger}}
 \newcommand{\x}{\hat{x}}
@@ -23,7 +23,7 @@
 \newcommand{\dm}{\hat{\rho}} % density operator
 \newcommand{\comm}[2]{[#1,\,\,#2]} % commutator
 \newcommand{\vac}{\ket{0}} % vacuum
-\newcommand{\tr}[1]{\mathrm{tr}(#1)} % trace
+\newcommand{\tr}[1]{~\mathrm{tr}(#1)} % trace
 \newcommand{\disp}[1]{\hat{D}(#1)} % displacement operator
 \newcommand{\xx}{\hat{X}}
 \newcommand{\pp}{\hat{P}}
@@ -31,8 +31,8 @@
 % math symbols
 \newcommand{\e}{\mathrm{e}}
 \newcommand{\vct}[2]{\left(\begin{array}{c} #1 \\ #2 \end{array} \right)}
-\newcommand{\w}{\omega}
-\newcommand{\W}{\Omega}
+\newcommand{\om}{\omega}
+\newcommand{\Om}{\Omega}
 \newcommand{\wo}{\omega_{0}}
 \newcommand{\xibm}{\bm{\xi}}
 \newcommand{\xivec}{\hat{\bm{\xi}}}
